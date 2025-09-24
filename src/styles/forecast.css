@@ -1,27 +1,12 @@
-#body_w2{
-    text-align: center;
-}
-
-#container_f {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-
 #cards_f {
     border: 1px solid white;
     border-radius: 10px;
     padding: 5px;
-    margin: 50px;
-    margin-left: 150px;
     background-color: rgb(26, 26, 27, 0.7);
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: large;
-    width: 300px;
 }
 
 #cards_f:hover {
@@ -53,12 +38,3 @@
     margin-top: 50px;
    
 }
-
-/* #body_w2 {
-    background: url('../assets/weather2.jpg') no-repeat center center fixed;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-} */
