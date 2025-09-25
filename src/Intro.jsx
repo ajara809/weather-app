@@ -14,6 +14,9 @@ function Intro() {
         <>
             <div className="container-fluid" id="container-i">
                 <div className="row">
+                    <div className="col-lg-12 col-md-12 col-sm-12 mt-3" >
+                        <h1>AJ Weather App</h1>
+                    </div>
                     <div className="col-lg-12 col-md-12 col-sm-12 mt-3">
                         <p>
                             Welcome to the <strong>Aj Weather App</strong> This application is designed to provide you with real-time
@@ -32,7 +35,7 @@ function Intro() {
                             happening in the world above you. Enjoy your journey with the Weather App!
                         </p>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12 mt-3" >
+                    <div className="col-lg-12 col-md-12 col-sm-12 mt-3" >
                         <button onClick={handlebutton}>GO</button>
                     </div>
                 </div>

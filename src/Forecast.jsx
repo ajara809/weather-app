@@ -36,10 +36,10 @@ function Forecast() {
     }
     return (
         <>
-            <div>
+            <div id="back_f">
                 <h1 id="h_f">5-Days ForeCast</h1>
                 <h1>{city}</h1>
-                <div className="container-fluid">
+                <div className="container">
                     <div className="row">
                         {forecast.map((item, index) => (
                             <div key={index} className="col-lg-4 col-md-6 col-sm-12 mt-3">

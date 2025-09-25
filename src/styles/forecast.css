@@ -1,9 +1,8 @@
 #cards_f {
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 10px;
-    padding: 5px;
-    background-color: rgb(26, 26, 27, 0.7);
-    color: white;
+    background-color: rgba(231, 190, 54, 0.4);
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: large;
@@ -11,7 +10,7 @@
 
 #cards_f:hover {
     transform: scale(1.05);
-    transition: 0.4S;
+    transition: 0.9S;
 }
 
 #date,
@@ -37,4 +36,15 @@
     color: white;
     margin-top: 50px;
    
+}
+
+#back_f{
+    background: url('../assets/back_3.jpg')  fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
