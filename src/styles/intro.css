@@ -1,0 +1,23 @@
+#container-i p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    margin-right: 15px;
+}
+
+#container-i button{
+    background-color: black;
+    color: white;
+}
+
+#container-i{
+    background: url('../assets/bac_2.jpg') center center scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+}
+body,html{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
